@@ -1,0 +1,46 @@
+body {
+  font-family: monospace;
+  background: #0f0f0f;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.container, .result {
+  width: 90%;
+  max-width: 600px;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,255,0,0.2);
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  margin-top: 15px;
+  background: #000;
+  color: #0f0;
+  border: 1px solid #0f0;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0f0;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

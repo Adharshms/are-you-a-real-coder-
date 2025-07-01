@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Are You a Real Coder?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💻 Are You a Real Coder?</h1>
+    <p class="question" id="question">Loading...</p>
+    <textarea id="answer" placeholder="Type your code here..."></textarea>
+    <button onclick="nextQuestion()">Submit</button>
+    <p class="progress" id="progress">Question 1 of 5</p>
+  </div>
+
+  <div class="result hidden" id="resultScreen">
+    <h2>🧠 Evaluating your code...</h2>
+    <p id="finalResult"></p>
+    <button onclick="window.location.reload()">Try Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
